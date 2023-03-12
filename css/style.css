@@ -2,8 +2,8 @@
 
 :root{
     --green:#16a085;
-    --black:#444;
-    --light-color:#777;
+    --red:#e80d0d;
+    --light-color:rgb(56, 46, 46);
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border:.2rem solid var(--green);
@@ -22,7 +22,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 5rem;
     scroll-behavior: smooth;
 }
 
@@ -39,14 +39,14 @@ section:nth-child(even){
     padding-bottom: 2rem;
     text-shadow: var(--text-shadow);
     text-transform: uppercase;
-    color:var(--black);
+    color:var(--green);
     font-size: 5rem;
-    letter-spacing: .4rem;
+    letter-spacing: .3rem;
 }
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    color:red;
 }
 
 .btn{
@@ -59,7 +59,7 @@ section:nth-child(even){
     box-shadow: var(--box-shadow);
     color:var(--green);
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     background: #fff;
 }
 
@@ -72,12 +72,12 @@ section:nth-child(even){
 }
 
 .btn:hover{
-    background: var(--green);
+    background: rgb(12, 15, 9);
     color:#fff;
 }
 
 .btn:hover span{
-    color: var(--green);
+    color: red;
     background:#fff;
     margin-left: 1rem;
 }
@@ -96,21 +96,22 @@ section:nth-child(even){
 
 .header .logo{
     font-size: 2.5rem;
-    color: var(--black);
+    color: black;
 }
 
 .header .logo i{
-    color: var(--green);
+    color: red;
 }
 
 .header .navbar a{
-    font-size: 1.7rem;
-    color: var(--light-color);
+    font-size: 1.5rem;
+    color: black;
     margin-left: 2rem;
+    font-weight: bold;
 }
 
 .header .navbar a:hover{
-    color: var(--green);
+    color:red;
 }
 
 #menu-btn{
@@ -243,7 +244,7 @@ section:nth-child(even){
 }
 
 .about .row .content h3{
-    color: var(--black);
+    color: black;
     text-shadow: var(--text-shadow);
     font-size: 4rem;
     line-height: 1.8;
@@ -280,7 +281,7 @@ section:nth-child(even){
 }
 
 .doctors .box-container .box h3{
-    color:var(--black);
+    color:green;
     font-size: 2.5rem;
 }
 
@@ -389,7 +390,7 @@ section:nth-child(even){
 }
 
 .review .box-container .box .stars i{
-    color:#fff;
+    color:rgb(245, 245, 7);
     font-size: 1.5rem;
 }
 
@@ -518,7 +519,7 @@ section:nth-child(even){
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:red;
 }
 
 
